@@ -3,7 +3,8 @@
 
 Analysis code for:
 
-> Gao Y, Saberi A, Manoli A, Royer J, Jia K, Valk SL. *[title]*. [journal, year]. [DOI]
+> Gao Y, Saberi A, Manoli A, Royer J, Jia K, Valk SL.
+> *[title]*. [journal, year]. [DOI]
 
 The code estimates depth-resolved effective connectivity with regression dynamic causal modelling (rDCM) from 7T resting-state fMRI, relates feedforward (FF) and feedback (FB) coupling to spatial working-memory performance, places the three cortical composites (EVC, PPC, cauPFC) on the sensorimotor–association (S–A) axis, and relates coupling to intracortical microstructure (qT1, microstructural profile covariance).
 
