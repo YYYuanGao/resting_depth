@@ -1,0 +1,106 @@
+{
+  "project_root": "/path/to/project/derivatives_0331",
+  "subjects": [
+    "sub-01",
+    "sub-02",
+    "sub-03",
+    "sub-04",
+    "sub-05",
+    "sub-06",
+    "sub-07",
+    "sub-08",
+    "sub-09",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-16"
+  ],
+  "expected_timepoints": 218,
+  "depths": [
+    "deep",
+    "mid",
+    "sup"
+  ],
+  "members": {
+    "EVC": [
+      "V1",
+      "V2",
+      "V3"
+    ],
+    "PPC": [
+      "LIPv",
+      "LIPd",
+      "VIP",
+      "MIP",
+      "IP0",
+      "IP1",
+      "IP2",
+      "7PC",
+      "7Am",
+      "7AL",
+      "7PL",
+      "7Pm",
+      "7m"
+    ],
+    "cauPFC": [
+      "6d",
+      "6v",
+      "6mp",
+      "FEF",
+      "PEF",
+      "55b",
+      "SFL"
+    ]
+  },
+  "roi_aliases": {
+    "7Al": "7AL",
+    "8AD": "8Ad"
+  },
+  "parcel_directory": "{project_root}/S6_validation/pial_depth_exclusion/Step3_TimeSeries_tSNRclean_pial5pct/ld1000_3layers_equivol/{subject}",
+  "reference_inputs": {
+    "six": "{project_root}/S6_validation/pial_depth_exclusion/matched_current_inputs/pial5_current/cauPFC_EVC/{subject}_cauPFC_EVC_ts_merged_layered.mat",
+    "nine": "{project_root}/S6_validation/pial5_multistage_bridge_evc_pooled/timeseries/{subject}_pial5_evc_pooled_multistage_layered.mat"
+  },
+  "reference_stages": {
+    "six": [
+      "EVC",
+      "cauPFC"
+    ],
+    "nine": [
+      "EVC",
+      "PPC",
+      "cauPFC"
+    ]
+  },
+  "reference_labels": {
+    "six": [
+      "EVC_deep",
+      "EVC_mid",
+      "EVC_sup",
+      "cau_PFC_deep",
+      "cau_PFC_mid",
+      "cau_PFC_sup"
+    ],
+    "nine": [
+      "EVC_deep",
+      "EVC_mid",
+      "EVC_sup",
+      "PPC_deep",
+      "PPC_mid",
+      "PPC_sup",
+      "cauPFC_deep",
+      "cauPFC_mid",
+      "cauPFC_sup"
+    ]
+  },
+  "trusted_roi_name_pickle": true,
+  "min_std": 1e-06,
+  "max_file_bytes": 67108864,
+  "parity_tolerance": {
+    "atol": 1e-05,
+    "rtol": 1e-06,
+    "rmse_over_sd": 0.0001
+  }
+}

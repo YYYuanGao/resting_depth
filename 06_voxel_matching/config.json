@@ -1,0 +1,84 @@
+{
+  "project_root": "/path/to/project/derivatives_0331",
+  "output": "{project_root}/S6_validation/roi_size_sensitivity/run_01",
+  "subjects": [
+    "sub-01",
+    "sub-02",
+    "sub-03",
+    "sub-04",
+    "sub-05",
+    "sub-06",
+    "sub-07",
+    "sub-08",
+    "sub-09",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-16"
+  ],
+  "pilot_subjects": [
+    "sub-01",
+    "sub-02"
+  ],
+  "step3": "{project_root}/S6_validation/pial_depth_exclusion/Step3_TimeSeries_tSNRclean_pial5pct/ld1000_3layers_equivol/{subject}",
+  "bold_override": null,
+  "hemisphere_images": {
+    "sub-01": null,
+    "sub-02": null,
+    "sub-03": null,
+    "sub-04": null,
+    "sub-05": null,
+    "sub-06": null,
+    "sub-07": null,
+    "sub-08": null,
+    "sub-09": null,
+    "sub-10": null,
+    "sub-11": null,
+    "sub-12": null,
+    "sub-13": null,
+    "sub-14": null,
+    "sub-16": null
+  },
+  "hemisphere_values": {
+    "L": 1,
+    "R": 2
+  },
+  "trusted_roi_name_pickle": true,
+  "roi_aliases": {
+    "7Al": "7AL",
+    "8AD": "8Ad"
+  },
+  "spm_path": "/path/to/spm12",
+  "tapas_path": "/path/to/tapas",
+  "matlab_executable": "matlab",
+  "master_seed": 20260926,
+  "statistics_seed": 20260927,
+  "formal_repeats": 100,
+  "minimum_parcel_quota": 5,
+  "hash_large_inputs": false,
+  "tsnr_baseline_confirmed": false,
+  "signal_stage": "UNCONFIRMED: BOLD identified through original pial extraction metadata",
+  "tolerance": {
+    "ts_atol": 1e-05,
+    "ts_rtol": 1e-06,
+    "ts_rmse_over_sd": 0.0001,
+    "A_atol": 1e-06,
+    "A_rtol": 0.0001
+  },
+  "behavior_bootstrap": 20000,
+  "behavior_permutations": 100000,
+  "original_input": {
+    "six": "{project_root}/S6_validation/pial_depth_exclusion/matched_current_inputs/pial5_current/cauPFC_EVC/{subject}_cauPFC_EVC_ts_merged_layered.mat",
+    "nine": "{project_root}/S6_validation/pial5_multistage_bridge_evc_pooled/timeseries/{subject}_pial5_evc_pooled_multistage_layered.mat"
+  },
+  "original_output": {
+    "six": "{project_root}/S6_validation/pial_depth_exclusion/matched_current_rdcm/pial5_current/cauPFC_EVC/{subject}/rDCM_output.mat",
+    "nine": "{project_root}/S6_validation/pial5_multistage_bridge_evc_pooled/rdcm/{subject}/rDCM_output.mat"
+  },
+  "six_metrics": "{project_root}/S6_validation/pial_depth_exclusion/matched_current_rdcm/group_audit/matched_pial5_subject_metrics.csv",
+  "behavior_table": "{project_root}/S6_validation/p0_review_response/01_behavior_loso/pooled_evc_behavior_subjects.csv",
+  "nine_edges": "{project_root}/S6_validation/pial5_multistage_bridge_evc_pooled/group/pial5_evc_pooled_multistage_A_edges_long.csv",
+  "hemisphere_provenance": null
+}
