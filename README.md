@@ -58,7 +58,7 @@ Fifteen participants (`sub-01`–`sub-14`, `sub-16`) enter every analysis; the l
 
 ## License
 
-[to be chosen, e.g. MIT]
+[none]
 
 ## Contact
 
