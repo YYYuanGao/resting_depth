@@ -1,0 +1,9 @@
+# Copy to config/paths.sh, edit, then: source config/paths.sh
+# Project folder containing BIDS/, Atlas_HCPMMP/, templates/, derivatives/ and derivatives_0331/
+export PROJECT_ROOT=/path/to/project
+# MATLAB toolboxes
+export SPM_PATH=/path/to/spm12
+export TAPAS_PATH=/path/to/tapas
+# Figures (12_figures): input files and output folder
+export FIG_DATA="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/12_figures/inputs"
+export FIG_OUT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/12_figures/output"

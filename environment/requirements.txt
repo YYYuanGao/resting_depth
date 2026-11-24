@@ -1,0 +1,16 @@
+# Python 3.9 or later. Server analyses: numpy 1.26.4, scipy 1.12.0, pandas 2.3.3,
+# nibabel 5.3.2, brainspace 0.1.22, scikit-learn 1.5.2. Figures were drawn with newer releases.
+numpy>=1.24
+scipy>=1.10
+pandas>=1.5
+nibabel>=5.0
+matplotlib>=3.7
+brainspace==0.1.22     # functional and MPC gradients (diffusion map embedding); version used on the server
+h5py                   # MATLAB v7.3 files (04_rdcm_six_node)
+# figures only (12_figures)
+pymupdf>=1.23          # figure composition
+hcp_utils==0.1.0       # fsLR surfaces and HCP-MMP labels
+pyvista                # surface rendering
+nilearn
+lxml
+pillow
